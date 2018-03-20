@@ -10,10 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180320065553) do
+ActiveRecord::Schema.define(version: 20180320072627) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "developer_programmings", force: :cascade do |t|
+    t.bigint "developer_id"
+    t.bigint "programming_language_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["developer_id", "programming_language_id"], name: "index_developer_programmings_on_dev_id_and_prog_lang_id", unique: true
+    t.index ["developer_id"], name: "index_developer_programmings_on_developer_id"
+    t.index ["programming_language_id"], name: "index_developer_programmings_on_programming_language_id"
+  end
 
   create_table "developers", force: :cascade do |t|
     t.string "email", null: false
@@ -36,4 +46,6 @@ ActiveRecord::Schema.define(version: 20180320065553) do
     t.index ["name"], name: "index_programming_languages_on_name", unique: true
   end
 
+  add_foreign_key "developer_programmings", "developers"
+  add_foreign_key "developer_programmings", "programming_languages"
 end
