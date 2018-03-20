@@ -1,0 +1,19 @@
+current directory: /home/hoavv/learnRails/ExerciseWorkShop/vendor/bundle/gems/byebug-10.0.0/ext/byebug
+/home/hoavv/.rvm/rubies/ruby-2.4.3/bin/ruby -r ./siteconf20180320-107992-17fcfa1.rb extconf.rb
+creating Makefile
+
+current directory: /home/hoavv/learnRails/ExerciseWorkShop/vendor/bundle/gems/byebug-10.0.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/hoavv/learnRails/ExerciseWorkShop/vendor/bundle/gems/byebug-10.0.0/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/hoavv/learnRails/ExerciseWorkShop/vendor/bundle/gems/byebug-10.0.0/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -m 0755 byebug.so ./.gem.20180320-107992-rjvvcg/byebug
