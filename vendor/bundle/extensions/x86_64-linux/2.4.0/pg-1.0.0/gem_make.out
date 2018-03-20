@@ -1,5 +1,5 @@
 current directory: /home/hoavv/learnRails/ExerciseWorkShop/vendor/bundle/gems/pg-1.0.0/ext
-/home/hoavv/.rvm/rubies/ruby-2.4.3/bin/ruby -r ./siteconf20180320-107992-1ynmoe4.rb extconf.rb
+/home/hoavv/.rvm/rubies/ruby-2.4.3/bin/ruby -r ./siteconf20180320-122387-5yii1y.rb extconf.rb
 checking for pg_config... yes
 Using config values from /usr/bin/pg_config
 checking for libpq-fe.h... yes
@@ -45,4 +45,4 @@ linking shared-object pg_ext.so
 
 current directory: /home/hoavv/learnRails/ExerciseWorkShop/vendor/bundle/gems/pg-1.0.0/ext
 make "DESTDIR=" install
-/usr/bin/install -m 0755 pg_ext.so ./.gem.20180320-107992-evttt1
+/usr/bin/install -m 0755 pg_ext.so ./.gem.20180320-122387-olyaji

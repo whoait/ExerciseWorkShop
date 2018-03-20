@@ -1,5 +1,5 @@
 current directory: /home/hoavv/learnRails/ExerciseWorkShop/vendor/bundle/gems/bindex-0.5.0/ext/bindex
-/home/hoavv/.rvm/rubies/ruby-2.4.3/bin/ruby -r ./siteconf20180320-107992-1fnljfh.rb extconf.rb
+/home/hoavv/.rvm/rubies/ruby-2.4.3/bin/ruby -r ./siteconf20180320-122387-gwdeaa.rb extconf.rb
 creating Makefile
 
 current directory: /home/hoavv/learnRails/ExerciseWorkShop/vendor/bundle/gems/bindex-0.5.0/ext/bindex
@@ -12,4 +12,4 @@ linking shared-object bindex/cruby.so
 
 current directory: /home/hoavv/learnRails/ExerciseWorkShop/vendor/bundle/gems/bindex-0.5.0/ext/bindex
 make "DESTDIR=" install
-/usr/bin/install -m 0755 cruby.so ./.gem.20180320-107992-1q338jm/bindex
+/usr/bin/install -m 0755 cruby.so ./.gem.20180320-122387-1ghfan7/bindex

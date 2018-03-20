@@ -1,0 +1,31 @@
+Metrics/LineLength:
+  Exclude:
+    - Rakefile
+    - Gemfile
+    - db/seeds.rb
+    - config/initializers/backtrace_silencers.rb
+    - config/initializers/wrap_parameters.rb
+    - config/application.rb
+    - config/environments/test.rb
+    - config/environments/production.rb
+    - config/puma.rb
+    - config/environments/development.rb
+Bundler/OrderedGems:
+  Exclude:
+    - Gemfile
+
+Style/HashSyntax:
+  Exclude:
+    - Gemfile
+
+Style/Documentation: 
+  Exclude:
+    - app/mailers/application_mailer.rb
+    - app/helpers/application_helper.rb
+    - app/controllers/application_controller.rb
+    - app/models/application_record.rb
+    - config/application.rb
+Style/MixinUsage:
+  Exclude:
+    - bin/update
+    - bin/setup
